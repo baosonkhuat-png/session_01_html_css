@@ -14,4 +14,66 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    color: #ffffff;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 5000;
+    font-style: var(--font-main);
+    letter-spacing: -1px;
+}
+
+.hero h1 span{
+    color: rgb(255, 196, 0);
+}
+
+.hero p {
+    font-size: 1.25rem;
+    font-weight: 20;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    font-size: 1rem;
+    padding: 1.5rem 2.5rem;
+    background: #ffffff;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.cta-button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.cta-button:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
 }
