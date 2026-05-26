@@ -9,7 +9,7 @@
 
 .skills-section {
     padding: 4rem 1.5rem;
-    background-color: #fff;
+    background-color: var(--color-light);
 }
 
 .skills-section .container {
